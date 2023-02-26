@@ -1,0 +1,82 @@
+.intro{
+    display:flex;
+    height:100vh;
+}
+
+.intro-left{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.intro-right{
+    flex:1.5;
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.intro-left-description{
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.intro-sentence{
+    font-size: 25px;
+}
+
+.my-name{
+    font-size: 40px;
+    font-weight: 80%;
+}
+
+.intro-phrase{
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.intro-tittle{
+    height: 40px;
+    overflow:hidden;
+}
+
+.tittle-item{
+    height: 40px;
+    /* color:rgb(6, 209, 245); */
+    color:  rgb(11, 152, 218);
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+}
+
+.intro-tittle-wrapper{
+   height: 100%;
+   animation: move 6s ease-in-out infinite alternate;
+}
+
+@keyframes move{
+    50%{
+       transform: translateY(-40px);
+    }
+    100%{
+       transform: translateY(-80px);
+    }
+}
+
+.intro-bg{
+    /* position: absolute; */
+    /* top:0; */
+    height: 100%;
+    width: 100%;
+    /* z-index: 1; */
+    clip-path: polygon(36% 0, 100% 0, 100% 100%, 16% 100%, 2% 49%);
+    background-color: rgb(11, 152, 218);
+}
+.intro-bg1{
+    
+}
