@@ -8,12 +8,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(202, 212, 216);
     /* border: 1px solid black; */
 }
 
 .intro-right{
-    flex:1.5;
+    flex:1.25;
     position: relative;
+    background-color: rgb(202, 212, 216);
     /* border: 1px solid black; */
 }
 
@@ -22,7 +24,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid black;
+    width: 100%;
+    /* border: 1px solid black; */
 }
 
 .intro-sentence{
@@ -32,6 +35,7 @@
 .my-name{
     font-size: 40px;
     font-weight: 80%;
+    color: rgb(8, 135, 194);
 }
 
 .intro-phrase{
@@ -48,7 +52,7 @@
 .tittle-item{
     height: 40px;
     /* color:rgb(6, 209, 245); */
-    color:  rgb(11, 152, 218);
+    color: rgb(50, 139, 180);
     font-weight: bold;
     display:flex;
     align-items: center;
@@ -75,8 +79,5 @@
     width: 100%;
     /* z-index: 1; */
     clip-path: polygon(36% 0, 100% 0, 100% 100%, 16% 100%, 2% 49%);
-    background-color: rgb(11, 152, 218);
-}
-.intro-bg1{
-    
+    background-color: rgb(8, 135, 194);
 }
