@@ -1,5 +1,6 @@
 import React from 'react'
 import Intro from './components/Intro';
+import Education from './components/Education/Education';
 import About from './components/About/about';
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Intro/>
       <About/>
+      <Education/>
     </div>
   )
 }

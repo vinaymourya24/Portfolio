@@ -3,6 +3,7 @@
    width: 100%;
    height: 100vh;
    display: flex;
+   overflow-y: hidden;
 }
 .Ab-left{
    flex: 1;
@@ -39,6 +40,7 @@
     /* border: 1px solid black; */
     padding: 2rem 1.4rem 0rem 0.8rem;
     font-size: 0.8rem;
+    overflow-y: hidden;
 }
 .des-Cont1{
     padding: 0rem 0.8rem 0rem 0.8rem;

@@ -78,6 +78,6 @@
     height: 100%;
     width: 100%;
     /* z-index: 1; */
-    clip-path: polygon(36% 0, 100% 0, 100% 100%, 16% 100%, 2% 49%);
+    clip-path: polygon(29% 0, 100% 0%, 100% 49%, 100% 100%, 75% 100%, 7% 100%, 0 56%);
     background-color: rgb(8, 135, 194);
 }

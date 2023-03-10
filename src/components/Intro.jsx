@@ -7,6 +7,7 @@ const Intro = () => {
     <div className="intro">
          <div className="intro-left">
             <div className="intro-left-description">
+    
                 <h4 className="intro-sentence">Hi! , I am</h4>
                 <h1 className="my-name">
                 <Typical 
